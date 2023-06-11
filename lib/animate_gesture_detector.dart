@@ -1,19 +1,18 @@
-library animated_gesture_detector;
+library animate_gesture_detector;
 
 import 'package:flutter/material.dart';
 
-class AnimatedGestureDetector extends StatefulWidget {
+class AnimateGestureDetector extends StatefulWidget {
   final Widget child;
   final Function() onTap;
-  const AnimatedGestureDetector(
+  const AnimateGestureDetector(
       {super.key, required this.child, required this.onTap});
 
   @override
-  State<AnimatedGestureDetector> createState() =>
-      _AnimatedGestureDetectorState();
+  State<AnimateGestureDetector> createState() => _AnimateGestureDetectorState();
 }
 
-class _AnimatedGestureDetectorState extends State<AnimatedGestureDetector> {
+class _AnimateGestureDetectorState extends State<AnimateGestureDetector> {
   double scale = 1;
   Duration animDuration = const Duration(milliseconds: 30);
   @override
