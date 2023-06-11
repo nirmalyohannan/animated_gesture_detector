@@ -2,6 +2,7 @@ name: animated_gesture_detector
 description: Gesture Detector with animation on Tap
 version: 0.0.1
 homepage:
+repository: https://github.com/nirmalyohannan/animated_gesture_detector
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
